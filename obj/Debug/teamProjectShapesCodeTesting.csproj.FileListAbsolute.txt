@@ -1,0 +1,10 @@
+C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\bin\Debug\teamProjectShapesCodeTesting.exe.config
+C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\bin\Debug\teamProjectShapesCodeTesting.exe
+C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\bin\Debug\teamProjectShapesCodeTesting.pdb
+C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectShapesCodeTesting.csproj.AssemblyReference.cache
+C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectShapesCodeTesting.Form1.resources
+C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectShapesCodeTesting.Properties.Resources.resources
+C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectShapesCodeTesting.csproj.GenerateResource.cache
+C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectShapesCodeTesting.csproj.CoreCompileInputs.cache
+C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectShapesCodeTesting.exe
+C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectShapesCodeTesting.pdb
