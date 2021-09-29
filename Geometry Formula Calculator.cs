@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace teamProjectShapesCodeTesting
 {
-    public partial class Form1 : Form
+    public partial class GeometryCalculator : Form
     {
-        public Form1()
+        public GeometryCalculator()
         {
             InitializeComponent();
         }
@@ -79,14 +79,14 @@ namespace teamProjectShapesCodeTesting
                 label2.Text = "W";
                 textBoxOne.Visible = true;
                 textBoxTwo.Visible = true;
-                pictureBox1.Image = Image.FromFile(@"C:/Users/Sonic/source/repos/teamProjectShapesCodeTesting/Rectangle.gif");
+                pictureBox1.Image = Image.FromFile(@"C:/C#/AreaPerimeterCalculator/rectangle11.jpg");
             }
             if (WooptyWoo == "square")
             {
                 label1.Visible = true;
                 label1.Text = "S";
                 textBoxOne.Visible = true;
-                pictureBox1.Image = Image.FromFile(@"C:/Users/Sonic/source/repos/teamProjectShapesCodeTesting/Square.gif");
+                pictureBox1.Image = Image.FromFile(@"C:/C#/AreaPerimeterCalculator/Square1.jpg");
             }
             if (WooptyWoo == "parallelogram")
             {
@@ -99,7 +99,7 @@ namespace teamProjectShapesCodeTesting
                 textBoxOne.Visible = true;
                 textBoxTwo.Visible = true;
                 textBoxThree.Visible = true;
-                pictureBox1.Image = Image.FromFile(@"C:/Users/Sonic/source/repos/teamProjectShapesCodeTesting/Parallelogram.gif");
+                pictureBox1.Image = Image.FromFile(@"C:/C#/AreaPerimeterCalculator/Parallelogram.gif");
             }
             if (WooptyWoo == "rhombus")
             {
@@ -109,7 +109,7 @@ namespace teamProjectShapesCodeTesting
                 label2.Text = "H";
                 textBoxOne.Visible = true;
                 textBoxTwo.Visible = true;
-                pictureBox1.Image = Image.FromFile(@"C:/Users/Sonic/source/repos/teamProjectShapesCodeTesting/Rhombus.gif");
+                pictureBox1.Image = Image.FromFile(@"C:/C#/AreaPerimeterCalculator/Rhombus.gif");
             }
             if (WooptyWoo == "triangle")
             {
@@ -125,7 +125,7 @@ namespace teamProjectShapesCodeTesting
                 textBoxTwo.Visible = true;
                 textBoxThree.Visible = true;
                 textBoxFour.Visible = true;
-                pictureBox1.Image = Image.FromFile(@"C:/Users/Sonic/source/repos/teamProjectShapesCodeTesting/Triangle.gif");
+                pictureBox1.Image = Image.FromFile(@"C:/C#/AreaPerimeterCalculator/Triangle.gif");
             }
             if (WooptyWoo == "trapezoid")
             {
@@ -144,14 +144,14 @@ namespace teamProjectShapesCodeTesting
                 textBoxThree.Visible = true;
                 textBoxFour.Visible = true;
                 textBoxFive.Visible = true;
-                pictureBox1.Image = Image.FromFile(@"C:/Users/Sonic/source/repos/teamProjectShapesCodeTesting\Trapezoid.gif");
+                pictureBox1.Image = Image.FromFile(@"C:/C#/AreaPerimeterCalculator/Trapezoid.gif");
             }
             if (WooptyWoo == "circle")
             {
                 label1.Visible = true;
                 label1.Text = "R";
                 textBoxOne.Visible = true;
-                pictureBox1.Image = Image.FromFile(@"C:/Users/Sonic/source/repos/teamProjectShapesCodeTesting/Circle.gif");
+                pictureBox1.Image = Image.FromFile(@"C:/C#/AreaPerimeterCalculator/Circle.gif");
             }
         }
 
@@ -461,8 +461,8 @@ namespace teamProjectShapesCodeTesting
         {
             List<float> list = new List<float>();
             double powR = Math.Pow(r, 2);
-            float perimeter = 2 * 3.14f * r;
-            float area = r * r * 3.14f;
+            float perimeter = 2 * 3.141592653589793238462643f * r;
+            float area = r * r * 3.141592653589793238462643f;
             list.Add(perimeter);
             list.Add(area);
             return list;
@@ -472,6 +472,92 @@ namespace teamProjectShapesCodeTesting
         {
             ClearTextBoxes();
             SetVisibleFalse();
+        }
+
+       
+
+
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void calculatebtn_Click(object sender, EventArgs e)
+        {
+            decimal result = 0;
+            
+
+            try
+            {
+                decimal x = Convert.ToDecimal(txtboxX.Text);
+                decimal y = Convert.ToDecimal(txtboxY.Text);
+                result = (x / y) * 100;
+                
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Please enter valid numbers.");
+            }
+            txtpercentresult.Text = Convert.ToString(result);
+        }
+
+
+
+
+
+
+
+
+
+
+        private void GeometryCalculator_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtboxX_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtboxY_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblY_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void percentagelbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtpercentresult_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void calculatePercentrb_CheckedChanged(object sender, EventArgs e)
+        {
+            if (calculatePercentrb.Checked)
+            {
+                lblY.Visible = true;
+                labelX.Visible = true;
+                percentagelbl.Visible = true;
+                calculatebtn.Visible = true;
+                txtboxX.Visible = true;
+                txtboxY.Visible = true;
+                txtpercentresult.Visible = true;
+            }
         }
     }
 }

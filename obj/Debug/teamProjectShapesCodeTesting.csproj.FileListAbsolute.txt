@@ -8,3 +8,13 @@ C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectSh
 C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectShapesCodeTesting.csproj.CoreCompileInputs.cache
 C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectShapesCodeTesting.exe
 C:\Users\Sonic\source\repos\teamProjectShapesCodeTesting\obj\Debug\teamProjectShapesCodeTesting.pdb
+C:\C#\AreaPerimeterCalculator\bin\Debug\teamProjectShapesCodeTesting.exe.config
+C:\C#\AreaPerimeterCalculator\bin\Debug\teamProjectShapesCodeTesting.exe
+C:\C#\AreaPerimeterCalculator\bin\Debug\teamProjectShapesCodeTesting.pdb
+C:\C#\AreaPerimeterCalculator\obj\Debug\teamProjectShapesCodeTesting.csprojAssemblyReference.cache
+C:\C#\AreaPerimeterCalculator\obj\Debug\teamProjectShapesCodeTesting.Properties.Resources.resources
+C:\C#\AreaPerimeterCalculator\obj\Debug\teamProjectShapesCodeTesting.csproj.GenerateResource.cache
+C:\C#\AreaPerimeterCalculator\obj\Debug\teamProjectShapesCodeTesting.csproj.CoreCompileInputs.cache
+C:\C#\AreaPerimeterCalculator\obj\Debug\teamProjectShapesCodeTesting.exe
+C:\C#\AreaPerimeterCalculator\obj\Debug\teamProjectShapesCodeTesting.pdb
+C:\C#\AreaPerimeterCalculator\obj\Debug\teamProjectShapesCodeTesting.GeometryCalculator.resources
